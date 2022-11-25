@@ -1,0 +1,10 @@
+rootProject.name = "MyApplication"
+include ':app'
+include ':app2'
+include ':app3'
+include ':appp'
+
+include ':theroom'
+include ':app4'
+include ':app5'
+include ':MPChartLib'

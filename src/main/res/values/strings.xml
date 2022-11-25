@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">app3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="local_service_started">启动本地服务</string>
+    <string name="local_service_stopped">停止本地服务</string>
+    <string name="local_service_label">本地服务标签</string>
+    <string name="local_service_connected">连接本地服务</string>
+    <string name="local_service_disconnected">断开本地服务</string>
+    <string name="remote_service_started">开启远程服务</string>
+    <string name="remote_service_stopped">停止远程服务</string>
+    <string name="action_settings">设置</string>
+    <string name="file_provider">com.hsd.fileProvider</string>
+
+
+</resources>

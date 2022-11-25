@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--控件-->
+
+
+    <style name="MainButtonStyle">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <!-- <item name="android:drawablePadding">3dp</item>-->
+        <item name="android:textColor">@drawable/bottom_button_text_selector</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+    <!--对话框的样式-->
+        <style name="NormalDialogStyle">
+            <!--对话框背景 -->
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <!--边框 -->
+            <item name="android:windowFrame">@null</item>
+            <!--没有标题 -->
+            <item name="android:windowNoTitle">true</item>
+            <!-- 是否浮现在Activity之上 -->
+            <item name="android:windowIsFloating">true</item>
+            <!--背景透明 -->
+            <item name="android:windowIsTranslucent">false</item>
+            <!-- 是否有覆盖 -->
+            <item name="android:windowContentOverlay">@null</item>
+            <!--进出的显示动画 -->
+            <!--        <item name="android:windowAnimationStyle">@style/normalDialogAnim</item>-->
+            <!--背景变暗-->
+            <item name="android:backgroundDimEnabled">true</item>
+        </style>
+        <!--对话框动画-->
+        <!--    <style name="normalDialogAnim" parent="android:Animation">-->
+        <!--        <item name="@android:windowEnterAnimation">@anim/normal_dialog_enter</item>-->
+        <!--        <item name="@android:windowExitAnimation">@anim/normal_dialog_exit</item>-->
+        <!--    </style>-->
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/tv_size_small</item>
+    </style>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="wenben">20sp</dimen>
+    <dimen name="tv_size">30dp</dimen>
+    <dimen name="tv_size_small">10dp</dimen>
+</resources>

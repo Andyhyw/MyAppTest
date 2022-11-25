@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item android:state_checked="false" android:drawable="@mipmap/index"></item>-->
+
+<!--    <item android:state_checked="true" android:drawable="@mipmap/index1"></item>-->
+<!--</selector>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@mipmap/ic_questionnaire_checked" android:state_hovered="true"/>
+<item android:drawable="@mipmap/ic_questionnaire_normal"/>
+</selector>

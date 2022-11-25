@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    >-->
+
+<!--&lt;!&ndash;    顶部栏&ndash;&gt;-->
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/tabLay"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"/>-->
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/view_pager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        />-->
+
+
+
+
+
+
+<!--底部栏  方式一-->
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/view_pager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"/>-->
+
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/tabLay"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"/>-->
+<!--</LinearLayout>-->
+
+<!--底部栏方式二-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_title_act"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="标题"
+        android:gravity="center"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+<com.google.android.material.tabs.TabLayout
+    android:id="@+id/tabLay"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/lightgrey"
+    android:fillViewport="false"
+    app:layout_scrollFlags="scroll"
+    app:tabIndicatorHeight="0dp"
+    app:tabMode="fixed"
+    >
+</com.google.android.material.tabs.TabLayout>
+
+
+</LinearLayout>
