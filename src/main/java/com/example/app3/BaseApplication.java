@@ -28,6 +28,8 @@ public class BaseApplication extends Application {
         //todo linux  linucJC(Dalvik(app3(act1(this\onclick(this))\act2(this)\....)))
 
 
+
+
            }
 
 
